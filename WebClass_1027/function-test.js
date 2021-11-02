@@ -17,8 +17,8 @@ function Sample4(){
   return 2021 * 1010;
 }
 
-let smp = Sample4();
-  console.log(smp);
+let smpl = Sample4();
+  console.log(smpl);
 
 
 //二つの引数の乗算
