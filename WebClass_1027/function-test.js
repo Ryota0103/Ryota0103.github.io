@@ -34,22 +34,22 @@ console.log(str);
 
 //二つの引数の乗算結果の1の位
 
-function Multiply2(data1, data2){
-  return data1 * data2;
+function Multiply2(data1, data2) {
+  let n1 = data1 * data2;
+  return Math.floor(n1) % 10;
 }
 
 let str2 = Multiply2(123, 3);
-let str2_ = Math.floor(str2 / 1) % 10;
-console.log(str2_);
+console.log(str2);
 
 
 
 //二つの引数の乗算結果の10の位
 
 function Multiply3(data1, data2){
-  return data1 * data2;
+  let n1 = data1 * data2;
+  return Math.floor(n1 / 10) % 10;
 }
 
 let str3 = Multiply3(123, 3);
-let str3_ = Math.floor(str3 / 10) % 10;
-console.log(str3_);
+console.log(str3);
