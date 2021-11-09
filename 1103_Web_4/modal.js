@@ -2,6 +2,7 @@
 let count = document.getElementById('modal')
   count = Number(count.textContent)
 
+//ここから関数
 function plusOne(){
   let modal = document.getElementById('modal');
 
