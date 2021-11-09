@@ -7,9 +7,9 @@ function helloSomeone(name){
 }
 
 function helloCircleArea(radius){
-  console.log((radius ** 2) * 3.14);
+  console.log(`円の面積は${(radius ** 2) * 3.14}`);
 }
 
 function helloRectangleArea(width, height){
-  console.log(width * height);
+  console.log(`長方形の面積は${width * height}`);
 }
