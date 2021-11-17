@@ -13,4 +13,7 @@ function checkYear() {
         }
       }
    }
+   else{
+     answer.innerHTML = "平年";
+   }
 }
