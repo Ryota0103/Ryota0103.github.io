@@ -1,17 +1,21 @@
 function doCheckAnswers() {
   let answer = document.querySelector("#answer");
-  let inputdata = document.querySelector("#input_string");
+  let inputString = document.querySelector("#input_string");
   let modal = Array.from(document.querySelectorAll('ul.answer-list li'));
+  let correct = false;//真偽判定の初期化
 
   modal.forEach(
       function(element) {
-        if (inputdata.value === element.innerHTML) {
-          answer.innerHTML = "正解";
+        if (inputString.value === element.innerHTML) {
+          correct = true;//配列のどれかに等しいならばtrue
         }
       }
    )
-  //配列のどの要素とも等しくなかった場合に不正解と表示
-  if(answer.innerHTML === ""){
+  //結果を表示
+  if(correct){
+    answer.innerHTML = "正解";
+  }
+  else if(correct === false){
     answer.innerHTML = "不正解";
   }
 }
