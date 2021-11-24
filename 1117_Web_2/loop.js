@@ -4,7 +4,7 @@ function doLoop(){
   let modal = document.querySelector("#answer");
   while(i < 100) {
     i++;
-    if (i % 15 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
       data = "FizzBuzz";
     }
     else if (i % 3 === 0) {
