@@ -1,0 +1,16 @@
+.main{
+  padding:10px 400px;
+}
+
+.icon{
+  width: 100px;
+  height: 120px;
+}
+
+ul{
+  list-style:none;
+}
+
+.btn-group{
+  padding-left:40px;
+}
