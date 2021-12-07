@@ -12,7 +12,7 @@ function ViewTweet(Name){
     if (tweetdata.name === Name || Name === "ViewAll"){//名前指定 or ViewAllの時無条件でパス
       answer.innerHTML += `<li>
       <div class="border" style="padding:10px;">
-         <img src="${tweetdata.avatar}" class = "icon">
+         <img src="${tweetdata.avatar}" class = "icon border" style="padding:10px;">
          <b>${tweetdata.name}</b>:
        　 ${tweetdata.message}
          <i>${tweetdata.tweetedAt}</i>
@@ -25,6 +25,7 @@ function ViewTweet(Name){
   answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 }
 
+//ボタンを押したときに呼び出す関数
 function All(){
   if(TrueAll === false) {
     ViewTweet("ViewAll")
