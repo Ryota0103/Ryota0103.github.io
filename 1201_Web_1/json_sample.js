@@ -6,6 +6,7 @@ function doSearch(){
       }
   ).then(
       function(json){
+        console.log(json)
         let answerHtml = "";
         answerHtml = `${json.results[0].address1}
       ${json.results[0].address2}
