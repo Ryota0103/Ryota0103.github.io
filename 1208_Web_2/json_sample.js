@@ -11,7 +11,7 @@ function doSearch(){
         answer.innerHTML = "";//初期化
         for(let i=0; i<10; i++) {
           let answerHtml = "";
-          //画像があるか無いかの判定、無いならNOIMAGEを表示
+          //画像があるか無いかの判定
           if(json.items[i].volumeInfo.imageLinks != null) {
             console.log("画像データがあるよ！")
             imgText = String(json.items[i].volumeInfo.imageLinks.thumbnail);
