@@ -1,4 +1,5 @@
 let answer = document.querySelector("#answer");
+let
 
 TrueAll = false;
 TrueSaburobot = false;
