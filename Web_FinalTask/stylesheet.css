@@ -8,3 +8,43 @@ body{
   margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
   text-align:left;   /*全体を左揃えにする。*/
 }
+
+
+.NEW{
+  margin-top:60px;
+  margin-bottom:100px;
+
+}
+
+.NEW span{
+  font-size:35px;//△の大きさ調整
+}
+
+.NEW-title h1{
+  text-align: center;
+  margin-bottom:50px;
+}
+
+.NEW-jacket img{
+  height:300px
+}
+
+.NEW-contents{
+  display:flex;
+  margin-left:160px;
+}
+
+.NEW-text{
+  list-style-type:none;
+  margin-left:20px;
+}
+
+.Carousel{
+  background-color:#696969;
+}
+
+.carousel-item img{
+  height:300px;
+  margin: 0 auto;
+}
+
