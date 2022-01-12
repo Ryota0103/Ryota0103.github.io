@@ -3,17 +3,20 @@ body{
   text-align:center; /*ページ全体を中央揃えにする*/
 }
 
+.whole{
+  background-color:#f5f5f5;
+}
+
 #main{
   width: 960px;	   /*全体の幅を指定する*/
   margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
   text-align:left;   /*全体を左揃えにする。*/
+  background-color:#ffffff;
 }
-
 
 .NEW{
   margin-top:60px;
   margin-bottom:100px;
-
 }
 
 .NEW span{
@@ -41,6 +44,7 @@ body{
 
 .Carousel{
   background-color:#696969;
+  margin-bottom:50px;
 }
 
 .carousel-item img{
@@ -48,3 +52,33 @@ body{
   margin: 0 auto;
 }
 
+.second-contents{
+  display:flex;
+}
+
+.diary{
+  padding-left:40px;
+  width:620px;
+}
+
+.diary-card{
+  margin-bottom:100px;
+}
+
+.TwitterData{
+  background-color:black;
+  margin-left:30px;
+  height:500px;
+  width:270px;
+}
+
+.footer p{
+  color:#dcdcdc;
+  text-align:center;
+  padding-top:60px;
+}
+
+.footer{
+  height:100px;
+  background-color:#696969;
+}
