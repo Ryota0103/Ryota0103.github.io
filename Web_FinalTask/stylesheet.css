@@ -1,6 +1,7 @@
 body{
   width:100%; /*ページ全体の幅は100%と指定する*/
   text-align:center; /*ページ全体を中央揃えにする*/
+  font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
 }
 
 .whole{
@@ -12,6 +13,43 @@ body{
   margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
   text-align:left;   /*全体を左揃えにする。*/
   background-color:#ffffff;
+}
+
+.header-body{
+  background-color:#f5f5f5;
+  height:100px;
+  display:flex;
+}
+
+.header-text svg{
+  margin-bottom:3px;
+  margin-right:10px;
+}
+
+.header-text-home{
+  padding-left:60px;
+  padding-top:15px;
+  font-size:20px;
+  margin-right:200px;
+}
+
+.header-text-home a{
+  color:#333333;
+  margin-right:40px;
+  text-decoration:none;
+  font-size:40px;
+}
+
+.header-text{
+  padding-left:60px;
+  padding-top:34px;
+  font-size:20px;
+}
+
+.header-text a{
+  color:#333333;
+  margin-right:40px;
+  text-decoration:none;
 }
 
 .NEW{
@@ -45,9 +83,15 @@ body{
 .Carousel{
   background-color:#696969;
   margin-bottom:50px;
+  text-align:center
 }
 
 .carousel-item img{
+  height:300px;
+  margin: 0 auto;
+}
+
+.cr-innner{
   height:300px;
   margin: 0 auto;
 }
@@ -74,7 +118,7 @@ body{
 }
 
 .footer p{
-  color:#dcdcdc;
+  color:#cccccc;
   text-align:center;
   padding-top:60px;
 }
