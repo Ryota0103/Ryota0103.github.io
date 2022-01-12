@@ -121,6 +121,10 @@ body{
   display:flex;
 }
 
+.card{
+  margin-bottom:10px;
+}
+
 .diary{
   padding-left:40px;
   width:620px;
