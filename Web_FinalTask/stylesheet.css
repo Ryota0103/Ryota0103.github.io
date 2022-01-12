@@ -138,13 +138,25 @@ body{
   width:270px;
 }
 
-.footer p{
+footer p{
   color:#cccccc;
   text-align:center;
   padding-top:60px;
 }
 
-.footer{
+footer{
   height:100px;
   background-color:#696969;
+  position: absolute;
+  bottom: -1000px;
+  left: 0;
+  width: 100%;
+}
+
+#works-contents{
+  margin-left:20px;
+}
+
+#works-diary{
+  opacity:0;
 }
